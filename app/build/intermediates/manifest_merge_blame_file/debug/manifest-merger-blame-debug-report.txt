@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sample.tencent.matrix"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+13-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:7:5-83
+13-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:7:22-81
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:10:5-78
+16-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:10:22-75
+17
+18    <application
+18-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:12:5-39:19
+19        android:name="sample.tencent.matrix.MatrixApplication"
+19-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:13:9-42
+20        android:allowBackup="true"
+20-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:14:9-35
+21        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+21-->[com.android.support:support-compat:28.0.0] /Users/chen/.gradle/caches/transforms-2/files-2.1/ca8cb340e2b8fcd480456c084ed55349/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:16:9-41
+25        android:supportsRtl="true"
+25-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:18:9-40
+28        <activity android:name="sample.tencent.matrix.MainActivity" >
+28-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:19:9-21:20
+28-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:19:19-47
+29        </activity>
+30        <activity
+30-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:23:9-93
+31            android:name="sample.tencent.matrix.issue.IssuesListActivity"
+31-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:23:19-59
+32            android:launchMode="singleTask" />
+32-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:23:60-91
+33        <activity android:name="sample.tencent.matrix.SplashActivity" >
+33-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:25:9-31:20
+33-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:25:19-49
+34            <intent-filter>
+34-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:26:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:27:17-68
+35-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:27:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:29:17-76
+37-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="sample.tencent.matrix.io.TestIOActivity" />
+40-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:32:9-64
+40-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:32:19-52
+41        <activity android:name="sample.tencent.matrix.resource.TestLeakActivity" />
+41-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:33:9-72
+41-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:33:19-60
+42        <activity android:name="sample.tencent.matrix.trace.TestTraceMainActivity" />
+42-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:34:9-74
+42-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:34:19-62
+43        <activity android:name="sample.tencent.matrix.trace.TestTraceFragmentActivity" />
+43-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:35:9-78
+43-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:35:19-66
+44        <activity android:name="sample.tencent.matrix.trace.TestEnterActivity" />
+44-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:36:9-70
+44-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:36:19-58
+45        <activity android:name="sample.tencent.matrix.trace.TestFpsActivity" />
+45-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:37:9-68
+45-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:37:19-56
+46        <activity android:name="sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity" />
+46-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:38:9-80
+46-->/Users/chen/Documents/GitHub/matrix/samples/sample-android/app/src/main/AndroidManifest.xml:38:19-68
+47        <activity
+47-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:12:9-18:20
+48            android:name="com.tencent.sqlitelint.behaviour.alert.CheckedDatabaseListActivity"
+48-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:13:13-94
+49            android:exported="true"
+49-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:14:13-36
+50            android:icon="@drawable/sqlite_lint_icon"
+50-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:15:13-54
+51            android:label="SQLiteLint"
+51-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:16:13-39
+52            android:taskAffinity="com.tencent.sqlitelint" >
+52-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:17:13-58
+53        </activity>
+54        <activity
+54-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:19:9-23:20
+55            android:name="com.tencent.sqlitelint.behaviour.alert.CheckResultActivity"
+55-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:20:13-86
+56            android:launchMode="singleTop"
+56-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:21:13-43
+57            android:taskAffinity="com.tencent.sqlitelint" >
+57-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:22:13-58
+58        </activity>
+59        <activity
+59-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:24:9-28:20
+60            android:name="com.tencent.sqlitelint.behaviour.alert.IssueDetailActivity"
+60-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:25:13-86
+61            android:launchMode="singleTop"
+61-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:26:13-43
+62            android:taskAffinity="com.tencent.sqlitelint" >
+62-->[com.tencent.matrix:matrix-sqlite-lint-android-sdk:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/06390f9ab016101e8184abf7bf7cdc36/matrix-sqlite-lint-android-sdk-0.6.6/AndroidManifest.xml:27:13-58
+63        </activity>
+64
+65        <service
+65-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:14:9-19:19
+66            android:name="com.tencent.matrix.resource.CanaryWorkerService"
+66-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:15:13-75
+67            android:exported="false"
+67-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:16:13-37
+68            android:permission="android.permission.BIND_JOB_SERVICE"
+68-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:17:13-69
+69            android:process=":res_can_worker" >
+69-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:18:13-46
+70        </service>
+71        <service
+71-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:20:9-24:19
+72            android:name="com.tencent.matrix.resource.CanaryResultService"
+72-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:21:13-75
+73            android:exported="false"
+73-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:22:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" >
+74-->[com.tencent.matrix:matrix-resource-canary-android:0.6.6] /Users/chen/.gradle/caches/transforms-2/files-2.1/c8d3a6a48a9667f769013187a7d7a167/matrix-resource-canary-android-0.6.6/AndroidManifest.xml:23:13-69
+75        </service>
+76    </application>
+77
+78</manifest>

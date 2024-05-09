@@ -1,0 +1,24 @@
+ignore methods:
+sample.tencent.matrix.MainActivity <init> ()V
+sample.tencent.matrix.MatrixApplication <init> ()V
+sample.tencent.matrix.MatrixApplication getContext ()Landroid.content.Context;
+sample.tencent.matrix.io.TestIOActivity onRequestPermissionsResult (I[Ljava.lang.String;[I)V
+sample.tencent.matrix.io.TestIOActivity <init> ()V
+sample.tencent.matrix.issue.IssuesListActivity$ViewHolder access$000 (Lsample.tencent.matrix.issue.IssuesListActivity$ViewHolder;)Z
+sample.tencent.matrix.issue.IssuesListActivity$ViewHolder getColor (I)I
+sample.tencent.matrix.issue.IssuesListActivity$ViewHolder bindPosition (I)V
+sample.tencent.matrix.issue.IssuesMap <init> ()V
+sample.tencent.matrix.issue.ParseIssueUtil <init> ()V
+sample.tencent.matrix.resource.TestLeakActivity <init> ()V
+sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity access$100 (Lsample.tencent.matrix.sqlitelint.TestSQLiteLintActivity;)Ljava.util.Map;
+sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity access$000 (Lsample.tencent.matrix.sqlitelint.TestSQLiteLintActivity;)Z
+sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity access$200 (Lsample.tencent.matrix.sqlitelint.TestSQLiteLintActivity;)Lorg.json.JSONArray;
+sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity <clinit> ()V
+sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity$1 <init> (Lsample.tencent.matrix.sqlitelint.TestSQLiteLintActivity;)V
+sample.tencent.matrix.sqlitelint.TestSQLiteLintHelper getTestSqlList ()[Ljava.lang.String;
+sample.tencent.matrix.sqlitelint.TestSQLiteLintHelper getTestParserList ()[Ljava.lang.String;
+sample.tencent.matrix.sqlitelint.TestSQLiteLintHelper <init> ()V
+sample.tencent.matrix.trace.TestEnterActivity <init> ()V
+sample.tencent.matrix.trace.TestFpsActivity$2 <init> (Lsample.tencent.matrix.trace.TestFpsActivity;Ljava.util.concurrent.Executor;)V
+sample.tencent.matrix.trace.TestTraceMainActivity <clinit> ()V
+sample.tencent.matrix.trace.TestTraceMainActivity <init> ()V
