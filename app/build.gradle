@@ -10,7 +10,7 @@ configurations.all {
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.2"
+    buildToolsVersion "28.0.3"
 
     signingConfigs {
         debug {
